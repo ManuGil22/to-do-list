@@ -1,8 +1,8 @@
 {
-  "name": "supermarket-list",
+  "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ManuGil22/to-do-list",
+  "homepage": "https://manugil22.github.io/to-do-list/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
