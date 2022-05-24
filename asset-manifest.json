@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ManuGil22/to-do-list/static/css/main.781a65ee.css",
+    "main.js": "/ManuGil22/to-do-list/static/js/main.7b9306c2.js",
+    "index.html": "/ManuGil22/to-do-list/index.html",
+    "main.781a65ee.css.map": "/ManuGil22/to-do-list/static/css/main.781a65ee.css.map",
+    "main.7b9306c2.js.map": "/ManuGil22/to-do-list/static/js/main.7b9306c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.781a65ee.css",
+    "static/js/main.7b9306c2.js"
+  ]
+}
