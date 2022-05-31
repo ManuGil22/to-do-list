@@ -1,3 +1,14 @@
+:root {
+    --task-background-color: #E9EDC9;
+    --main-background-color: #CCD5AE;
+    --task-completed-background-color: #A3C496;
+    --input-background-color: #FEFAE0;
+    --submit-btn-background-color: #FAEDCD;
+    --card-background-color: #D4A373;
+    --card-border-color: #583101; 
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +21,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #CCD5AE;
+    background-color: var(--main-background-color);
 }
 
 .main-container {
     min-height: 500px;
-    background-color: #D4A373;
-    border: 2px solid #583101;
+    background-color: var(--card-background-color);
+    border: 2px solid var(--card-border-color);
     border-radius: 5px;
     margin: 100px 0 100px 0;
     padding-bottom: 30px;
 }
+
+@media (max-width: 485px) {
+    .main-container {
+        margin: 100px 15px;
+    }
+}
+

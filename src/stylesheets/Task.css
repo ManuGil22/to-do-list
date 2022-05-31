@@ -1,13 +1,13 @@
 .task {
     width: 512px;
     min-height: 45px;
-    background-color: #E9EDC9;
+    background-color: var(--task-background-color);
     padding: 0px 20px 0px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 35px;
-    border: 2px solid #FEFAE0;
+    border: 2px solid var(--input-background-color);
     border-radius: 2px;
     font-size: 18px;
     font-weight: 500;    
@@ -32,5 +32,19 @@
 
 .completed {
     text-decoration: line-through;
-    background-color: #a3c496;
+    background-color: var(--task-completed-background-color);
+}
+
+@media (max-width: 625px) {
+    .task {
+        width: auto;
+        margin: 10px 35px;
+    }
+}
+
+@media (max-width: 525px) {
+    .task {
+        width: auto;
+        margin: 10px 15px;
+    }
 }

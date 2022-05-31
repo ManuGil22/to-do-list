@@ -8,12 +8,12 @@
 
 .task-input {
     outline: none;
-    border: 2px solid #583101;
+    border: 2px solid var(--card-border-color);
     border-radius: 5px;
     width: 350px;
     font-size: 18px;
     padding: 10px 25px 10px 15px;
-    background-color: #FEFAE0;
+    background-color: var(--input-background-color);
 }
 
 .task-btn {
@@ -21,13 +21,29 @@
     margin-left: 10px;
     padding: 10px 25px 10px 15px;
     border-radius: 5px;
-    border: 2px solid #583101;
-    background-color: #FAEDCD;
+    border: 2px solid var(--card-border-color);
+    background-color: var(--submit-btn-background-color);
     cursor: pointer;
 }
 
 .task-btn:hover {
-    background-color: #583101;
-    border: 2px solid #FAEDCD;
-    color: #FEFAE0;
+    background-color: var(--card-border-color);
+    border: 2px solid var(--submit-btn-background-color);
+    color: var(--input-background-color);
+}
+
+@media (max-width: 625px) {
+    .task-input {
+        width: 100%;
+    }
+    .task-btn {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (max-width: 525px) {
+    .task-form {
+        margin: 35px 15px;
+    }
 }
